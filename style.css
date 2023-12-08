@@ -92,7 +92,7 @@ p {
 }
 
 .text-container {
-    padding: 20px; /* 内边距 */
+    padding: 10px; /* 内边距 */
     flex-direction: column;
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
