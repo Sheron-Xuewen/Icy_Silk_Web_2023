@@ -93,7 +93,7 @@ p {
 
 .text-container {
     padding: 20px; /* 内边距 */
-    display: flex; /* 使用 Flexbox 布局 */
+    flex-direction: column;
     justify-content: center; /* 水平居中 */
     align-items: center; /* 垂直居中 */
     height: 100%; /* 确保容器占满父元素的高度 */
