@@ -13,7 +13,7 @@
     height: 100vh;    /* 高度等于视窗高度 */
     background-image: url('path/to/your/image.gif'); /* GIF背景图 */
     background-repeat: repeat-x; /* 水平重复 */
-    background-size: auto 100%; /* 宽度自适应，高度等于容器高度 */
+    background-size: contain; /* 保持图像原始大小不拉伸 */
     z-index: 1000;    /* 确保它位于其他元素之上 */
     pointer-events: none; /* 允许鼠标事件穿透 */
     overflow: hidden; /* 隐藏超出容器部分 */
