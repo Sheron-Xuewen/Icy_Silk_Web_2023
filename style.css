@@ -9,13 +9,14 @@
     position: fixed;  /* 固定位置，始终位于页面顶部 */
     top: 0;           /* 从顶部开始 */
     left: 0;          /* 从左侧开始 */
-    width: 100%;      /* 宽度等于页面宽度 */
-    height: 100vh;    /* 高度设置为视窗的高度 */
+    width: 100vw;     /* 宽度等于视窗宽度 */
+    height: 100vh;    /* 高度等于视窗高度 */
     background-image: url('path/to/your/image.gif'); /* GIF背景图 */
     background-repeat: repeat-x; /* 水平重复 */
-    background-size: 20%; /* 每个图像占1/3宽度 */
+    background-size: auto 100%; /* 宽度自适应，高度等于容器高度 */
     z-index: 1000;    /* 确保它位于其他元素之上 */
     pointer-events: none; /* 允许鼠标事件穿透 */
+    overflow: hidden; /* 隐藏超出容器部分 */
 }
 
 body {
